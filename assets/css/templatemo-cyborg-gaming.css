@@ -136,18 +136,18 @@ body .page-content {
 
 p {
   font-size: 15px;
-  color: #666;
+  color: #fff;
   line-height: 30px;
   margin-bottom: 0px;
 }
 
 ::selection {
-  background: #e75e8d;
+  background: #74E6CD;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #e75e8d;
+  background: #74E6CD;
   color: #fff;
 }
 
@@ -159,7 +159,7 @@ p {
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #e75e8d;
+  background-color: #049688;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -173,7 +173,7 @@ p {
 
 .main-button a:hover {
   background-color: #fff;
-  color: #e75e8d;
+  color: #049688;
 }
 
 .main-border-button a {
@@ -195,7 +195,7 @@ p {
 .main-border-button a:hover {
   border-color: #fff;
   background-color: #fff;
-  color: #e75e8d;
+  color: #74E6CD;
 }
 
 .border-no-active a {
@@ -214,7 +214,7 @@ section {
 }
 
 .heading-section h4 {
-  color: #ec6090;
+  color: #74E6CD;
   font-size: 34px;
   text-decoration: none;
   margin-bottom: 30px;
@@ -223,7 +223,6 @@ section {
 .heading-section h4 em {
   color: #fff;
   font-style: normal;
-  text-decoration: underline;
 }
 
 /* 
@@ -299,7 +298,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #e75e8d;
+  background: #74E6CD;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -322,7 +321,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #e75e8d;
+  background: #74E6CD;
   border-radius: 50%;
 }
 
@@ -335,7 +334,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #fff !important;
+  background-color: #1e1e1e !important;
   height: 70px!important;
   position: fixed!important;
   top: 0!important;
@@ -478,13 +477,13 @@ Header Style
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #e75e8d !important;
+  color: #74E6CD !important;
 }
 
 .header-area .main-nav .nav li:last-child:hover a,
 .header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
-  background-color: #e75e8d !important;
+  color: #1e1e1e !important;
+  background-color: #74E6CD !important;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -522,7 +521,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #e75e8d;
+  background-color: #74E6CD;
   display: block;
   position: absolute;
   width: 30px;
@@ -533,7 +532,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #e75e8d;
+  background-color: #74E6CD;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -542,7 +541,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #e75e8d;
+  background-color: #74E6CD;
   display: block;
   position: absolute;
   width: 30px;
@@ -553,7 +552,7 @@ Header Style
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #e75e8d;
+  background-color: #74E6CD;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -594,11 +593,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #e75e8d;
+  background-color: #74E6CD;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #e75e8d;
+  background-color: #74E6CD;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -606,11 +605,11 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #e75e8d;
+  background-color: #74E6CD;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #e75e8d;
+  background-color: #74E6CD;
 }
 
 .header-area.header-sticky {
@@ -618,7 +617,7 @@ Header Style
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fff;
+  color: #1e1e1e;
 }
 
 @media (max-width: 1200px) {
@@ -661,14 +660,14 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #e75e8d!important;
+    color: #74E6CD!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #1e1e1e;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -704,12 +703,12 @@ Header Style
     margin-top: 70px !important;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #1e1e1e;
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
+    background: #1e1e1e;
+    border-bottom: 1px solid #1e1e1e;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -718,19 +717,19 @@ Header Style
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #fff !important;
+    background: #1e1e1e !important;
     color: #1e1e1e !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #fff !important;
-    color: #e75e8d!important;
+    background: #1e1e1e !important;
+    color: #74E6CD!important;
   }
   .header-area .main-nav .nav li:last-child a img {
     display: none;
   }
   .header-area .main-nav .nav li:last-child a:hover {
-    color: #ec6090 !important;
-    background-color: transparent !important;
+    color: #74E6CD !important;
+    background-color: #1e1e1e !important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -772,7 +771,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/Background.png);
   background-position: center center;
   background-size: cover;
   min-height: 380px;
@@ -795,7 +794,7 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #ec6090;
+  color: #74E6CD;
 }
 
 /* 
@@ -859,7 +858,7 @@ Most Popular Style
 }
 
 .most-popular .item ul li:last-child i {
-  color: #ec6090;
+  color: #e75e8d;
 }
 
 .most-popular .main-button {
@@ -1529,7 +1528,7 @@ Profile Style
 .main-profile .main-info span {
   font-size: 14px;
   color: #fff;
-  background-color: #e75e8d;
+  background-color: #74E6CD;
   padding: 8px 20px;
   display: inline-block;
   border-radius: 25px;
